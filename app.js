@@ -28,7 +28,7 @@ console.log("Hello, my name is " + yourName);
 */
 
 // C. Booleans
-
+/*
 const a = 4;
 const b = 53;
 const c = 57;
@@ -45,6 +45,15 @@ console.log(e == 'Kevin');
 console.log(a && b < c);
 console.log(a == a != d);
 console.log(48 == '48');
+*/
+
+const animal = "cow";
+    if (animal == "cow") {
+    console.log("mooooo"); 
+    } else {
+     console.log("Hey! You're not a cow.")     
+}
+
 
 
 
