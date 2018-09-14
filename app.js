@@ -11,6 +11,19 @@
 //6. Planning should be about 75-90% of the time spent and typing the code
 //   should be about 10-25%.
 
+// B. Strings
+// 1.
+let firstVariable = "Hello World";
+firstVariable = 25;
+let secondVariable = firstVariable;
+secondVariable = "this";
+
+// Answer is 25
+
+// 2.
+
+let yourName = "James";
+console.log("Hello, my name is " + yourName);
 
 
 
