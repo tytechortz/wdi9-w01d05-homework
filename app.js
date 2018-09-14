@@ -46,13 +46,23 @@ console.log(a && b < c);
 console.log(a == a != d);
 console.log(48 == '48');
 */
-
+/*
 const animal = "cow";
     if (animal == "cow") {
     console.log("mooooo"); 
     } else {
      console.log("Hey! You're not a cow.")     
 }
+*/
+
+// D.Driver's Ed
+const driversAge = 14;
+    if (driversAge >= 16) {
+    console.log("Here are the keys");
+}   else if (driversAge < 16) {
+    console.log("Sorry, you're too young.")
+}
+    
 
 
 
