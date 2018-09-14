@@ -77,9 +77,14 @@ for (let i = 10; i <= 400; i++) {
     console.log(i);
 }
 */
-
+/*
 for (let i = 12; i <= 4000; i+=3) {
     console.log(i);
+}
+*/
+for (let i = 1; i <= 100; i++) {
+   if (i % 2 === 0)
+   console.log(i + "<-- is an even number"); 
 }
 
 
