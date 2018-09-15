@@ -183,7 +183,7 @@ console.log(ourClass);
 
 //E. Mix it up
 //1.
-
+/*
 const myArray = [5, 10, 500, 20];
 
 myArray.push("Egon", "Long live Koshka!");
@@ -206,3 +206,11 @@ myArray.reverse();
 console.log(myArray);
 // Yes the array is mutated, meaning the source element is changed.  It returns the
 // of the reversed original array.
+*/
+
+//F. Biggie Smalls
+let num = 100;
+    if (num < 100) {
+     console.log("little number");
+    } else console.log("big number");
+
