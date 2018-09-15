@@ -151,4 +151,17 @@ console.log(sum);
 //3. I collect temperature data ever 15 minutes that can be stored in an array
 
 //B. Easy Does it
+/*
 const quotes = ["Be excellent to each other-Bill and Ted", "Have a good time, all the time-Viv Savage", "Reckon you got any mustard for them biscuits?-Karl"];
+*/
+
+//C. Accessing elements
+const randomThings = [1, 10, "Hello", true];
+//1.  randomThings[0];
+console.log(randomThings[0]);
+//2.
+randomThings[2] = "World";
+
+//3.
+console.log(randomThings);
+
