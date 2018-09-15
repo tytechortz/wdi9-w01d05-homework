@@ -135,6 +135,7 @@ console.log(bankAccount);
 */
 
 //E.
+/*
 let sum = 0;
 for (let i = 1; i < 1000; i++) {
     if (i % 3 === 0 || i % 5 === 0) {
@@ -142,3 +143,10 @@ for (let i = 1; i < 1000; i++) {
     }
 }
 console.log(sum);
+*/
+// III. Arrays and Control flow
+//A.
+//1. Elements
+//2. Since arrays are ordered, I assume yes, although the elements can be moved around.
+//3. I collect temperature data ever 15 minutes that can be stored in an array
+
