@@ -168,6 +168,7 @@ console.log(randomThings);
 */
 
 //D. Change values
+/*
 const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
 //1.
 ourClass[2];
@@ -178,4 +179,30 @@ ourClass[4] = "Octocat";
 //3.
 ourClass.push("Cloud City");
 console.log(ourClass);
+*/
 
+//E. Mix it up
+//1.
+
+const myArray = [5, 10, 500, 20];
+
+myArray.push("Egon", "Long live Koshka!");
+console.log(myArray);
+
+//2. 
+myArray.shift();
+console.log(myArray);
+
+//3.
+myArray.unshift("Bob Marley");
+console.log(myArray); 
+
+//4.
+myArray.pop();
+console.log(myArray);
+
+//5.
+myArray.reverse();
+console.log(myArray);
+// Yes the array is mutated, meaning the source element is changed.  It returns the
+// of the reversed original array.
