@@ -209,8 +209,23 @@ console.log(myArray);
 */
 
 //F. Biggie Smalls
+/*
 let num = 100;
     if (num < 100) {
      console.log("little number");
     } else console.log("big number");
+*/
+
+//G. Monkey in the Middle
+//1.
+let num = 11;
+if (num < 5) {
+    console.log("little number");
+    } else if (num > 10) {
+     console.log("big number");
+        } else {
+     console.log("monkey");
+    }
+
+    
 
