@@ -293,11 +293,19 @@ const kristynsCloset = [
   //A.
 
   //B.
+  /*
    const printCool = (name) => {
     console.log(name + " is cool");
     }
     printCool("Captain Reynolds");
- 
+  */
+
+  //C.
+  const calculateCube = (num) => {
+      console.log(Math.pow(num, 3));
+  }
+
+calculateCube(5);
 
 
 
