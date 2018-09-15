@@ -301,12 +301,25 @@ const kristynsCloset = [
   */
 
   //C.
+/*
   const calculateCube = (num) => {
       console.log(Math.pow(num, 3));
   }
 
-calculateCube(5);
+  calculateCube(5);
+*/
 
+//D.
+const isVowel = (char) => {
+    //change all entries to lowercase;
+    const charNew =  char.toLowerCase();
+    if (charNew != 'a' && 'e' && 'i' && 'o' && 'u') {
+    console.log("false");
+    }  else {
+    console.log("true");
+    }
+}
+isVowel("A");
 
 
  
