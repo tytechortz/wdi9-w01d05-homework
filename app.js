@@ -150,3 +150,5 @@ console.log(sum);
 //2. Since arrays are ordered, I assume yes, although the elements can be moved around.
 //3. I collect temperature data ever 15 minutes that can be stored in an array
 
+//B. Easy Does it
+const quotes = ["Be excellent to each other-Bill and Ted", "Have a good time, all the time-Viv Savage", "Reckon you got any mustard for them biscuits?-Karl"];
