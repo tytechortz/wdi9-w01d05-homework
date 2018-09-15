@@ -101,6 +101,7 @@ for (let i = 1; i <= 100; i++) {
 
 //C.Give me Five
 //1.
+/*
 for (let i = 0; i <= 100; i++) {
     if (i % 5 === 0)
     console.log('I found a ' + i + '.  High Five!');
@@ -113,8 +114,20 @@ for (let i = 1; i <= 100; i++) {
     } else if (i % 3 === 0)
         console.log('I found a ' + i + '.  Three is a crowd');
     }
+*/
+//D. Savings account
+//1.
+/*
+let bankAccount = 0;
+for (let i = 1; i <= 10; i++) {
+     bankAccount += i;
+}
+console.log(bankAccount);
+*/
 
-
-
-
-
+//2.
+let bankAccount = 0;
+for (let i = 1; i <= 100; i++) {
+     bankAccount += 2 * i;
+}
+console.log(bankAccount);
