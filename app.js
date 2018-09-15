@@ -229,6 +229,7 @@ if (num < 5) {
     }
 */
 //H. What's in Your Closet
+/*
 const kristynsCloset = [
     "left shoe",
     "cowboy boots",
@@ -286,6 +287,12 @@ const kristynsCloset = [
   thomsCloset[1][2] = "Footie Pajamas";
   console.log(thomsCloset);
 
+  */
+
+  //IV.
+  //A.
+
+ 
 
 
 
