@@ -324,6 +324,7 @@ isVowel("A");
 */
 
 //E. getTwoLengths
+/*
 arr = [];
 const getTwoLengths = (str1, str2) => {
     return arr = [str1.length, str2.length];
@@ -332,7 +333,27 @@ const getTwoLengths = (str1, str2) => {
 
 console.log(getTwoLengths("Hank", "Hippopopalous"));
 
+*/
 
+/*
+F. getMultipleLengths
+console.log(getMultipleLengths(["hello", "what", "is", "dude"]));
  
     
+*/
 
+//G. maxOfThree
+const maxOfThree = (num1, num2, num3) => {
+    let max = 0;
+    if((num1 >= num2) && (num1 >= num3)) {
+        max = num1;
+    }
+    else if((num2 >= num1) && (num2 >= num3)){
+        max = num2;
+    }    
+    else {
+        max = num3;
+    }
+    return max;
+    }
+    console.log(maxOfThree(1, 20, 9));
