@@ -467,3 +467,10 @@ const user = {
     age: 15,
     purchased: [],
 }
+
+//B.1.
+user['email'] = "terra@pupmail.com";
+
+//2.
+user.age++;
+console.log(user);
