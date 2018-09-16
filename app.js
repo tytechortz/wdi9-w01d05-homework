@@ -461,6 +461,7 @@ console.log(getRandomElement[x]);
 
 //IV. Objects
 //A.
+
 const user = {
     name: "Terra",
     email: "terra@dogmail.com",
@@ -473,7 +474,7 @@ const user = {
 user['email'] = "terra@pupmail.com";
 
 //2.
-user.age++;
+//user.age++;
 
 
 //C. Adding keys and values
@@ -491,7 +492,7 @@ user["purchased"].push("peace of mind");
 //3.
 user["purchased"].push("Merino jodhpurs");
 
-
+/*
 //4.
 //console.log(user.purchased[2]);
 
@@ -529,3 +530,23 @@ user.friend["purchased"].push("A latte");
 for(let i = 0; i < user.friend.purchased.length; i++) {
     console.log(user.friend.purchased[i]);
 }
+*/
+
+//G. Functions can operate on objects
+//1.
+/*
+const updateUser =() => {
+    user.age++;
+    user.name = user.name.toUpperCase();
+}
+updateUser();
+console.log(user);
+*/
+//2.
+
+const oldAndLoud = (person) => {
+    person.age++;
+    person.name = person.name.toUpperCase();
+}
+oldAndLoud(user);
+console.log(user);
