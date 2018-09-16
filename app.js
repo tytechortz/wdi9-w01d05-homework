@@ -343,6 +343,7 @@ console.log(getMultipleLengths(["hello", "what", "is", "dude"]));
 */
 
 //G. maxOfThree
+/*
 const maxOfThree = (num1, num2, num3) => {
     let max = 0;
     if((num1 >= num2) && (num1 >= num3)) {
@@ -357,3 +358,22 @@ const maxOfThree = (num1, num2, num3) => {
     return max;
     }
     console.log(maxOfThree(1, 20, 9));
+*/
+
+//H. printLongestWord
+/*
+const printLongestWord = [arr] => {
+
+}
+
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+*/
+
+//I. transmogrify
+let transmogrify = (num1, num2, num3) => {
+    let result = ((num1 * num2) ** num3);
+    return result;
+}
+
+
+console.log(transmogrify(5, 3, 2));
