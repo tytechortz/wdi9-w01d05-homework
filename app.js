@@ -335,12 +335,20 @@ console.log(getTwoLengths("Hank", "Hippopopalous"));
 
 */
 
+
+//F. getMultipleLengths
 /*
-F. getMultipleLengths
+const getMultipleLengths = (arr) => {
+    var count = 0;
+    var ar = getMultipleLengths.split("");
+    for (let i = 0; i < arr.length; i++) {
+        if (ar)
+    }
+
 console.log(getMultipleLengths(["hello", "what", "is", "dude"]));
  
-    
-*/
+ */   
+
 
 //G. maxOfThree
 /*
@@ -363,13 +371,14 @@ const maxOfThree = (num1, num2, num3) => {
 //H. printLongestWord
 /*
 const printLongestWord = [arr] => {
-
+    for(let i = 0, i <= )
 }
 
 console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 */
 
 //I. transmogrify
+/*
 let transmogrify = (num1, num2, num3) => {
     let result = ((num1 * num2) ** num3);
     return result;
@@ -377,3 +386,73 @@ let transmogrify = (num1, num2, num3) => {
 
 
 console.log(transmogrify(5, 3, 2));
+*/
+
+//J. reverseWordOrder
+/*
+var words = [];
+var buf = "";
+const reverseWordOrder = (str) => {
+    for (i = 0; i < str.length; i++) {
+        buf += str[i];
+        if(str[i] == " ") {
+            words.push(buf);
+            buf = "";
+        }
+    }
+if(buf.length > 0) {
+    words.push(buf);
+}
+}
+console.log(reverseWordOrder("Ishmael me Call"));
+*/
+
+//K. Get down and dirty with Math.random ()
+//1.
+/*
+const ranNum = (min, max) => {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    console.log(Math.floor(Math.random() * (max - min)) + min);
+}
+ranNum(11, 1);
+*/
+
+//2.
+/*
+const ranNum = (min, max) => {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    console.log(Math.floor(Math.random() * (max - min)) + min);
+}
+ranNum(10, 101);
+*/
+
+//3.
+/*
+const ranNum = (min, max) => {
+   console.log(Math.random() * (max - min) + min);
+}
+ranNum(532, 13267);
+
+*/
+//4.
+/*
+const ranNum = (min, max) => {
+    console.log(Math.random() * (max - min) + min);
+ }
+ ranNum(1, 10);
+*/
+ //5.
+const getRandomElement = ["Be excellent to each other-Bill and Ted", "Have a good time, all the time-Viv Savage", "Reckon you got any mustard for them biscuits?-Karl", "I am the Egg Man-Paul"];
+var arrLength = getRandomElement.length;
+
+
+let ranNum = (min, max) => {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return x = (Math.floor(Math.random() * (max - min)) + min);
+}
+ranNum(0,arrLength);
+console.log(getRandomElement[x]);
+
