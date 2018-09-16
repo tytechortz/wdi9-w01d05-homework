@@ -496,6 +496,7 @@ user["purchased"].push("Merino jodhpurs");
 //console.log(user.purchased[2]);
 
 //E. Object-within-object
+
 //1.
 user.friend = {
     name: "Turner",
@@ -503,10 +504,11 @@ user.friend = {
     location: "Rancho Cucamonga",
     purchased: [],
 }
+
 //2.
-console.log(user.friend.name);
+//console.log(user.friend.name);
 //3.
-console.log(user.friend.location);
+//console.log(user.friend.location);
 //4.
 user.friend.age = 55;
 //5.
@@ -514,4 +516,16 @@ user.friend["purchased"].push("The One Ring");
 //6.
 user.friend["purchased"].push("A latte");
 //7.
-console.log(user.friend.purchased[1]);
+//console.log(user.friend.purchased[1]);
+
+
+//F. Loops
+//1.
+
+//for (let i = 0; i < user.purchased.length; i++) {
+    //console.log(user.purchased[i]);
+//}
+
+for(let i = 0; i < user.friend.purchased.length; i++) {
+    console.log(user.friend.purchased[i]);
+}
