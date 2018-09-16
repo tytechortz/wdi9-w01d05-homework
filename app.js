@@ -468,13 +468,29 @@ const user = {
     purchased: [],
 }
 
-//B.1.
+//B. Update the user
+//1.
 user['email'] = "terra@pupmail.com";
 
 //2.
 user.age++;
 
 
-//C.
+//C. Adding keys and values
 user["location"] = "Colorado";
-console.log(user);
+
+
+//D. Shopaholic!
+//1.
+user["purchased"].push("carbohydrates");
+
+
+//2.
+user["purchased"].push("peace of mind");
+
+//3.
+user["purchased"].push("Merino jodhpurs");
+
+
+//4.
+console.log(user.purchased[2]);
