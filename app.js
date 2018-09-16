@@ -46,6 +46,8 @@ console.log(a && b < c);
 console.log(a == a != d);
 console.log(48 == '48');
 */
+
+//D The Farm
 /*
 const animal = "cow";
     if (animal == "cow") {
@@ -55,7 +57,7 @@ const animal = "cow";
 }
 */
 
-// D.Driver's Ed
+// E. Driver's Ed
 /*
 const driversAge = 14;
     if (driversAge >= 16) {
@@ -134,7 +136,7 @@ for (let i = 1; i <= 100; i++) {
 console.log(bankAccount);
 */
 
-//E.
+//E. Multiples of 3 and 5
 /*
 let sum = 0;
 for (let i = 1; i < 1000; i++) {
@@ -290,9 +292,9 @@ const kristynsCloset = [
   */
 
   //IV.
-  //A.
+  //A. printGreeting
 
-  //B.
+  //B. printCool
   /*
    const printCool = (name) => {
     console.log(name + " is cool");
@@ -300,7 +302,7 @@ const kristynsCloset = [
     printCool("Captain Reynolds");
   */
 
-  //C.
+  //C. calculateCube
 /*
   const calculateCube = (num) => {
       console.log(Math.pow(num, 3));
@@ -337,17 +339,18 @@ console.log(getTwoLengths("Hank", "Hippopopalous"));
 
 
 //F. getMultipleLengths
-/*
+
 const getMultipleLengths = (arr) => {
-    var count = 0;
-    var ar = getMultipleLengths.split("");
+    var out = [];
     for (let i = 0; i < arr.length; i++) {
-        if (ar)
+        out.push(arr[i].length);
+        }
+    return out;
     }
 
 console.log(getMultipleLengths(["hello", "what", "is", "dude"]));
  
- */   
+   
 
 
 //G. maxOfThree
@@ -461,7 +464,7 @@ console.log(getRandomElement[x]);
 
 //IV. Objects
 //A.
-
+/*
 const user = {
     name: "Terra",
     email: "terra@dogmail.com",
@@ -491,7 +494,7 @@ user["purchased"].push("peace of mind");
 
 //3.
 user["purchased"].push("Merino jodhpurs");
-
+*/
 /*
 //4.
 //console.log(user.purchased[2]);
@@ -543,10 +546,11 @@ updateUser();
 console.log(user);
 */
 //2.
-
+/*
 const oldAndLoud = (person) => {
     person.age++;
     person.name = person.name.toUpperCase();
 }
 oldAndLoud(user);
 console.log(user);
+*/
