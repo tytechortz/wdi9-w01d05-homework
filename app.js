@@ -309,7 +309,8 @@ const kristynsCloset = [
   calculateCube(5);
 */
 
-//D.
+//D.isVowel
+/*
 const isVowel = (char) => {
     //change all entries to lowercase;
     const charNew =  char.toLowerCase();
@@ -320,6 +321,16 @@ const isVowel = (char) => {
     }
 }
 isVowel("A");
+*/
+
+//E. getTwoLengths
+arr = [];
+const getTwoLengths = (str1, str2) => {
+    return arr = [str1.length, str2.length];
+    
+}
+
+console.log(getTwoLengths("Hank", "Hippopopalous"));
 
 
  
