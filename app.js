@@ -493,4 +493,25 @@ user["purchased"].push("Merino jodhpurs");
 
 
 //4.
-console.log(user.purchased[2]);
+//console.log(user.purchased[2]);
+
+//E. Object-within-object
+//1.
+user.friend = {
+    name: "Turner",
+    age: 7,
+    location: "Rancho Cucamonga",
+    purchased: [],
+}
+//2.
+console.log(user.friend.name);
+//3.
+console.log(user.friend.location);
+//4.
+user.friend.age = 55;
+//5.
+user.friend["purchased"].push("The One Ring");
+//6.
+user.friend["purchased"].push("A latte");
+//7.
+console.log(user.friend.purchased[1]);
