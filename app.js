@@ -348,9 +348,9 @@ const getMultipleLengths = (arr) => {
     return out;
     }
 
-console.log(getMultipleLengths(["hello", "what", "is", "dude"]));
+console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
  
-   
+
 
 
 //G. maxOfThree
@@ -408,7 +408,7 @@ if(buf.length > 0) {
 }
 }
 console.log(reverseWordOrder("Ishmael me Call"));
-*/
+/*
 
 //K. Get down and dirty with Math.random ()
 //1.
