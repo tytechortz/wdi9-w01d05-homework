@@ -443,7 +443,9 @@ const ranNum = (min, max) => {
  }
  ranNum(1, 10);
 */
+
  //5.
+ /*
 const getRandomElement = ["Be excellent to each other-Bill and Ted", "Have a good time, all the time-Viv Savage", "Reckon you got any mustard for them biscuits?-Karl", "I am the Egg Man-Paul"];
 var arrLength = getRandomElement.length;
 
@@ -455,4 +457,13 @@ let ranNum = (min, max) => {
 }
 ranNum(0,arrLength);
 console.log(getRandomElement[x]);
+*/
 
+//IV. Objects
+//A.
+const user = {
+    name: "Terra",
+    email: "terra@dogmail.com",
+    age: 15,
+    purchased: [],
+}
