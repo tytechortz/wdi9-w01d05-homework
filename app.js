@@ -473,4 +473,8 @@ user['email'] = "terra@pupmail.com";
 
 //2.
 user.age++;
+
+
+//C.
+user["location"] = "Colorado";
 console.log(user);
