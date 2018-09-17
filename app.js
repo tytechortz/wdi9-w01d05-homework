@@ -339,7 +339,7 @@ console.log(getTwoLengths("Hank", "Hippopopalous"));
 
 
 //F. getMultipleLengths
-
+/*
 const getMultipleLengths = (arr) => {
     var out = [];
     for (let i = 0; i < arr.length; i++) {
@@ -349,7 +349,7 @@ const getMultipleLengths = (arr) => {
     }
 
 console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
- 
+ */
 
 
 
@@ -371,14 +371,20 @@ const maxOfThree = (num1, num2, num3) => {
     console.log(maxOfThree(1, 20, 9));
 */
 
-//H. printLongestWord
-/*
-const printLongestWord = [arr] => {
-    for(let i = 0, i <= )
-}
+//H. Print longest word
 
+const printLongestWord = (str) => {
+var lgth = 0;
+var longestWord;
+for (i = 0; i < str.length; i++) {
+    if(str[i].length > lgth) {
+        var lgth = str[i].length;
+        longestWord = str[i];
+        }
+    }
+    return(longestWord);
+}
 console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
-*/
 
 //I. transmogrify
 /*
@@ -553,4 +559,5 @@ const oldAndLoud = (person) => {
 }
 oldAndLoud(user);
 console.log(user);
+}
 */
